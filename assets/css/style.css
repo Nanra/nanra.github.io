@@ -1,5 +1,5 @@
 /* This css file is to over write bootstarp css
-* ---------------------------------------------------------------------- 
+* ----------------------------------------------------------------------
 * Theme Name: Top Class
 * Theme URI: http://jeweltheme.com/
 * Author: Jewel Theme
@@ -14,13 +14,13 @@
 
 
 /*---------------------------------------------------------------------- /
-Table of Contents 
+Table of Contents
 ------------------------------------------------------------------------ /
 
 * 1 - Google Font
 * 2 - General Styles
-*   2.1 - Headings 
-*   2.2 - Block Quote  
+*   2.1 - Headings
+*   2.2 - Block Quote
 *   2.3 - Buttons
 *      2.3.1 - Default
 *      2.3.2 - Light Yellow
@@ -39,52 +39,52 @@ Table of Contents
 *   2.7 - Form Control
 *   2.8 - Parallax
 *   2.9 - Dropcaps
-*   2.10 - Accordions 
+*   2.10 - Accordions
 *   2.11 - Section Headings and Description
 *   2.12 - Owl Slider
 * 3 - Index Top Section
-* 4 - Menu Section 
-* 5 - About Us Section   
-* 6 - Video Section  
-* 7 - Team Section 
-* 8 - Top Skills Section  
-* 9 - Quality Section  
-* 10 - We Do Section  
-* 11 - Pricing Table Section  
-* 12 - Testimonial Section 
-* 13 - Works Section  
-* 14 - Our Clients Section  
-* 15 - Quote Section  
-* 16 - Blog Section   
-* 17 - Tweet Section 
-* 18 - Subscribe Section  
-* 19 - Contact Section   
+* 4 - Menu Section
+* 5 - About Us Section
+* 6 - Video Section
+* 7 - Team Section
+* 8 - Top Skills Section
+* 9 - Quality Section
+* 10 - We Do Section
+* 11 - Pricing Table Section
+* 12 - Testimonial Section
+* 13 - Works Section
+* 14 - Our Clients Section
+* 15 - Quote Section
+* 16 - Blog Section
+* 17 - Tweet Section
+* 18 - Subscribe Section
+* 19 - Contact Section
 *    19.1 - Contact Form
 *    19.2 - Contact Details
-* 20 - Page Name Section 
-* 21 - Google Map  
-* 22 - Footer Section 
+* 20 - Page Name Section
+* 21 - Google Map
+* 22 - Footer Section
 *   22.1 - Footer Social Buttons
 * 23 - Blog Page
 *   23.1 - Post Blockquote
 *   23.2 - Attachment Link
-*   23.3 - Pagination  
-* 24 - Single Page    
+*   23.3 - Pagination
+* 24 - Single Page
 *    24.1- Page Social Share
 *    24.2 - Author Bio
 *        24.2.1 - Author Bio Social
 *    24.3 - Post Navigation
 *    24.4 - Comments Area
 * 25 - Portfolio Page
-* 26 - Portfolio Single Page   
-*   26.1 - Project Widget 
-*   26.2 - Similar Project 
+* 26 - Portfolio Single Page
+*   26.1 - Project Widget
+*   26.2 - Similar Project
 * 27 - 404 Page
 * 28 - Widget
 *    28.1 - Search Widget
-*    28.2 - widget_img 
+*    28.2 - widget_img
 *    28.3 - Categories & Archive Widget
-*    28.4 - Recent Post Widget 
+*    28.4 - Recent Post Widget
 *    28.5 - Tag Widget
 *    28.6 - Calendar Widget
 * 29 - Scroll Top Section
@@ -99,7 +99,7 @@ Table of Contents End
 ------------------------------------------------------------------------*/
 @import url(http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900);
 
-/* 1 - Google Font End 
+/* 1 - Google Font End
 ------------------------------------------------------------------------*/
 
 
@@ -108,7 +108,7 @@ Table of Contents End
 html,
 body {
 	font-family: 'Raleway', sans-serif;
-	color: #666666;
+	/*color: #666666;*/
 	font-size: 16px;
 }
 a {
@@ -195,7 +195,7 @@ audio {
 }
 
 
-/* 2.1 - Headings 
+/* 2.1 - Headings
 --------------------------------------------- */
 h1,
 h2,
@@ -230,13 +230,13 @@ h6 {
 --------------------------------------------- */
 
 
-/* 2.2 - Block Quote 
+/* 2.2 - Block Quote
 --------------------------------------------- */
 blockquote {
 	border: none;
 	position: relative;
 }
-/* 2.2 - Block Quote 
+/* 2.2 - Block Quote
 --------------------------------------------- */
 
 
@@ -283,8 +283,8 @@ blockquote {
 .btn-effect.btn-bg:hover:after {
 	background: transparent !important;
 }
-.btn:focus, 
-.btn:active:focus, 
+.btn:focus,
+.btn:active:focus,
 .btn.active:focus {
 	outline:0px;
 	outline-offset:0px;
@@ -612,8 +612,8 @@ blockquote {
 .nav-tabs>li:last-child>a {
 	border-right-color: transparent;
 }
-.nav-tabs>li.active>a, 
-.nav-tabs>li.active>a:hover, 
+.nav-tabs>li.active>a,
+.nav-tabs>li.active>a:hover,
 .nav-tabs>li.active>a:focus {
 	color: #1fb5ac;
 	border-color: #ffffff;
@@ -747,7 +747,7 @@ blockquote {
 	-ms-transition: all .25s ease;
 	-o-transition: all .25s ease;
 	transition: all .25s ease;
-} 
+}
 textarea.form-control{
 	min-height: 120px;
 }
@@ -767,7 +767,7 @@ textarea.form-control{
 /* 2.7 - Form Control End
 ---------------------------------------------*/
 
-/* 2.8 - Parallax 
+/* 2.8 - Parallax
 ---------------------------------------------*/
 .parallax-style,
 .no-parallax-style {
@@ -786,42 +786,42 @@ textarea.form-control{
 	background-color: rgba(0,0,0,.3);
 }
 #top-section {
-	background: url(../../images/background/top-section-bg.jpg) 50% 0 no-repeat fixed;
+	background: url(../../images/background/brickwall1.png) 50% 0 ;
 	margin: 0 auto;
 	padding: 0;
 }
 #page-name-sec {
-	background: url(../../images/background/page-name-bg.jpg) 50% 0 no-repeat fixed;
+	background: url(../../images/background/brickwall1.png) 50% 0  ;
 	margin: 0 auto;
 	padding: 0;
 }
 #video-section {
-	background: url(../../images/background/video-section-bg.jpg) 50% 0 no-repeat fixed;
+	background: url(../../images/background/brickwall1.png) 50% 0  ;
 	margin: 0 auto;
 	padding: 0;
 }
 #quality {
-	background: url(../../images/background/quality-bg.jpg) 50% 0 no-repeat fixed;
+	background: url(../../images/background/brickwall1.png) 50% 0   ;
 	margin: 0 auto;
 	padding: 0;
 }
 #testimonial {
-	background: url(../../images/background/testimonial-bg.jpg) 50% 0 no-repeat fixed;
+	background: url(../../images/background/brickwall1.png) 50% 0   ;
 	margin: 0 auto;
 	padding: 0;
 }
 #quote {
-	background: url(../../images/background/page-name-bg.jpg) 50% 0 no-repeat fixed;
+	background: url(../../images/background/brickwall1.png) 50% 0   ;
 	margin: 0 auto;
 	padding: 0;
 }
 #subscribe {
-	background: url(../../images/background/subscribe-bg.jpg) 50% 0 no-repeat fixed;
+	background: url(../../images/background/brickwall1.png) 50% 0   ;
 	margin: 0 auto;
 	padding: 0;
 }
 #footer-section {
-	background: url(../../images/background/footer-bg.jpg) 50% 0 no-repeat fixed;
+	background: url(../../images/background/brickwall1.png) 50% 0   ;
 	margin: 0 auto;
 	padding: 0;
 }
@@ -860,7 +860,7 @@ textarea.form-control{
 --------------------------------------------- */
 
 
-/* 2.10 - Accordions 
+/* 2.10 - Accordions
 --------------------------------------------- */
 .panel-group .panel {
 	border-radius: 0;
@@ -905,8 +905,8 @@ textarea.form-control{
 	position: absolute;
 	top: 0;
 	right: 12px;
-	font-family: FontAwesome;	
-	content: "\f0d7"; 
+	font-family: FontAwesome;
+	content: "\f0d7";
 	font-size: 20px;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
@@ -915,7 +915,7 @@ textarea.form-control{
 	position: absolute;
 	top: 0;
 	right: 12px;
-	font-family: FontAwesome;	
+	font-family: FontAwesome;
 	content: "\f0da";
 	font-size: 20px;
 	-webkit-font-smoothing: antialiased;
@@ -950,7 +950,7 @@ textarea.form-control{
 
 
 
-/* 2.11 - Section Headings and Description 
+/* 2.11 - Section Headings and Description
 --------------------------------------------- */
 .sec-head-container {
 	margin-top: 150px;
@@ -1072,7 +1072,7 @@ textarea.form-control{
 .top-headings span {
 	color: #1fb5ac;
 }
-[class^="top-heading-"], 
+[class^="top-heading-"],
 [class*=" top-heading-"] {
 	color: #ffffff;
 	font-weight: 900;
@@ -1180,13 +1180,13 @@ textarea.form-control{
 	height: 80px;
 	font-size: 2rem;
 	font-weight: 900;
-	padding:0 15px; 
+	padding:0 15px;
 	line-height: 80px;
 	-webkit-font-smoothing: antialiased;
 	-webkit-text-stroke: 0.2px;
 }
 .navbar-default .navbar-brand,
-.navbar-default .navbar-brand:hover, 
+.navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
 	color: #000000;
 	text-transform: uppercase;
@@ -1220,8 +1220,8 @@ textarea.form-control{
 .navbar-nav>li.menu-item-has-children>a:after{
 	height: 0!important;
 }
-.navbar-default .navbar-nav>.active>a, 
-.navbar-default .navbar-nav>.active>a:hover, 
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
 .navbar-default .navbar-nav>.active>a:focus {
 	color: #1fb5ac;
 	background: transparent;
@@ -1229,7 +1229,7 @@ textarea.form-control{
 .navbar-default .navbar-nav>li>a{
 	color: #262626;
 }
-.navbar-default .navbar-nav>li>a:hover, 
+.navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus,
 .navbar-nav>li.menu-item-has-children:hover:before {
 	color: #1fb5ac;
@@ -1299,7 +1299,7 @@ textarea.form-control{
 .navbar-nav>li .sub-menu>li>a:hover{
 	background: rgba(31,181,172,1);
 	color: #262626;
-} 
+}
 .navbar-nav>li .sub-menu>li{
 	position: relative;
 }
@@ -1418,7 +1418,7 @@ textarea.form-control{
 	left: 10px;
 	right: 10px;
 	bottom: 10px;
-	opacity: 1; 
+	opacity: 1;
 }
 
 /* 6 - Video Section End
@@ -1448,7 +1448,7 @@ textarea.form-control{
 	position: absolute;
 	left: -10px;
 	bottom: -10px;
-	z-index: -1; 
+	z-index: -1;
 }
 .member-container .inner-container {
 	width: 100%;
@@ -1531,8 +1531,8 @@ textarea.form-control{
 	color: #0077b5;
 }
 .member-container:after,
-.member-container .member-details, 
-.member-social-link a, 
+.member-container .member-details,
+.member-social-link a,
 .member-social-link a:after {
 	-webkit-transition: all .25s ease;
 	-moz-transition: all .25s ease;
@@ -1625,13 +1625,13 @@ textarea.form-control{
 }
 .service-container li:nth-child(odd) {
 	background-color: #f7f7f7;
-} 
+}
 .service-container li:nth-child(even) {
 	background-color: #f2f2f2;
 }
 .service-container li:nth-child(2n+5) {
 	background-color: #f2f2f2;
-} 
+}
 .service-container li:nth-child(2n+6) {
 	background-color: #f7f7f7;
 }
@@ -1640,10 +1640,10 @@ textarea.form-control{
 }
 .service-container li:nth-child(2n+10) {
 	background-color: #f2f2f2;
-} 
-.service-container li, 
+}
+.service-container li,
 .service-container li:before,
-.service-container li .service-icon, 
+.service-container li .service-icon,
 .service-container li .item-title,
 .service-container li .item-description{
 	-webkit-transition: all .25s ease;
@@ -1658,8 +1658,8 @@ textarea.form-control{
 .service-container li:hover:before {
 	top: 0;
 	right: 0;
-} 
-.service-container li:hover .service-icon, 
+}
+.service-container li:hover .service-icon,
 .service-container li:hover .item-title,
 .service-container li:hover .item-description {
 	color: #ffffff;
@@ -1719,7 +1719,7 @@ textarea.form-control{
 	font-size: 1.125em;
 	font-weight: 300;
 	line-height: 30px;
-	font-style: italic;	
+	font-style: italic;
 	position: relative;
 	margin-top: 20px;
 	padding: 10px 50px 20px 50px;
@@ -1768,12 +1768,12 @@ textarea.form-control{
 
 
 
-/* 13 - Works Section  
+/* 13 - Works Section
 ----------------------------------------------------------------------*/
 .works-item figure {
 	background-color: #f1f2f7;
 	margin: 0;
-	overflow: hidden; 
+	overflow: hidden;
 }
 .works-item figure {
 	background: #ffffff;
@@ -1851,7 +1851,7 @@ textarea.form-control{
 .portfolioFilter a:hover,
 .portfolioFilter .current {
 	color: #1fb5ac;
-	text-decoration: none;	
+	text-decoration: none;
 }
 .portfolioFilter .current {
 	color: #1fb5ac;
@@ -1879,7 +1879,7 @@ textarea.form-control{
 	opacity: 0;
 	position: absolute;
 	top:-50%;
-	left: -100%;	
+	left: -100%;
 	-webkit-transform: rotate(-90deg) scale(1.2,1.2);
 	-moz-transform: rotate(-90deg) scale(1.2,1.2);
 	-ms-transform: rotate(-90deg) scale(1.2,1.2);
@@ -1890,7 +1890,7 @@ textarea.form-control{
 .works-item figure:hover:after {
 	opacity: 1;
 	top: 0;
-	left: 0;	
+	left: 0;
 	-webkit-transform: rotate(0deg) scale(1.2,1.2);
 	-moz-transform: rotate(0deg) scale(1.2,1.2);
 	-ms-transform: rotate(0deg) scale(1.2,1.2);
@@ -1934,19 +1934,19 @@ textarea.form-control{
 	font-size: 1em;
 	font-weight: 700;
 	top: 0;
-	-webkit-transition-delay: .25s; 
+	-webkit-transition-delay: .25s;
 	-moz-transition-delay: .25s;
-	-ms-transition-delay: .25s; 
-	-o-transition-delay: .25s;  
+	-ms-transition-delay: .25s;
+	-o-transition-delay: .25s;
 	transition-delay: .25s;
 }
 .works-item figure .protfolio-cat {
 	font-size: 0.8125em;
 	top: 20px;
-	-webkit-transition-delay: .35s; 
+	-webkit-transition-delay: .35s;
 	-moz-transition-delay: .35s;
-	-ms-transition-delay: .35s; 
-	-o-transition-delay: .35s;  
+	-ms-transition-delay: .35s;
+	-o-transition-delay: .35s;
 	transition-delay: .35s;
 }
 .works-item figure .protfolio-icon {
@@ -1955,10 +1955,10 @@ textarea.form-control{
 	right: 10%;
 	color: #ffffff;
 	font-size: 1.25em;
-	-webkit-transition-delay: .4s; 
+	-webkit-transition-delay: .4s;
 	-moz-transition-delay: .4s;
-	-ms-transition-delay: .4s; 
-	-o-transition-delay: .4s;  
+	-ms-transition-delay: .4s;
+	-o-transition-delay: .4s;
 	transition-delay: .4s;
 }
 .works-item figure:hover .protfolio-title,
@@ -2027,7 +2027,7 @@ textarea.form-control{
 
 
 
-/* 14 - Our Clients Section 
+/* 14 - Our Clients Section
 ----------------------------------------------------------------------*/
 .our-clients-section {
 	padding: 60px 0 80px 0;
@@ -2053,7 +2053,7 @@ textarea.form-control{
 ----------------------------------------------------------------------*/
 
 
-/* 15 - Quote Section 
+/* 15 - Quote Section
 ----------------------------------------------------------------------*/
 .quote-area {
 	min-height: 400px;
@@ -2079,7 +2079,7 @@ textarea.form-control{
 
 
 
-/* 16 - Blog Section  
+/* 16 - Blog Section
 ----------------------------------------------------------------------*/
 .blog-section {
 	padding-bottom: 80px;
@@ -2122,7 +2122,7 @@ textarea.form-control{
 	color: #1fb5ac;
 }
 .post-content .entry-meta span{
-	padding-left:20px; 
+	padding-left:20px;
 }
 .post-content .entry-date ,
 .post-content .comments-link a {
@@ -2132,7 +2132,7 @@ textarea.form-control{
 	color: #1fb5ac;
 }
 .post-content .continue-reading a {
-	border-bottom: 1px dotted transparent;	
+	border-bottom: 1px dotted transparent;
 }
 .post-content .continue-reading a:hover {
 	text-decoration: none;
@@ -2142,7 +2142,7 @@ textarea.form-control{
 ----------------------------------------------------------------------*/
 
 
-/* 17 - Tweet Section 
+/* 17 - Tweet Section
 ----------------------------------------------------------------------*/
 .tweet-section {
 	padding: 70px 0 80px 0;
@@ -2259,14 +2259,14 @@ textarea.form-control{
 .subscribe-form .form-control::-webkit-input-placeholder {
 	color: #ffffff;
 }
-.subscribe-form .form-control:-moz-placeholder { 
-	color: #ffffff;  
+.subscribe-form .form-control:-moz-placeholder {
+	color: #ffffff;
 }
-.subscribe-form .form-control::-moz-placeholder { 
-	color: #ffffff;  
+.subscribe-form .form-control::-moz-placeholder {
+	color: #ffffff;
 }
-.subscribe-form .form-control:-ms-input-placeholder {  
-	color: #ffffff;  
+.subscribe-form .form-control:-ms-input-placeholder {
+	color: #ffffff;
 }
 /* 18 - Subscribe Section End
 ---------------------------------------------------------------------- */
@@ -2274,7 +2274,7 @@ textarea.form-control{
 
 
 
-/* 19 - Contact Section  
+/* 19 - Contact Section
 ---------------------------------------------------------------------- */
 
 /* 19.1 - Contact Form
@@ -2423,7 +2423,7 @@ textarea.form-control{
 .page-location a{
 	display: inline-block;
 	padding: 0;
-	margin-right:20px; 
+	margin-right:20px;
 	position: relative;
 }
 .page-location a:before,
@@ -2436,7 +2436,7 @@ textarea.form-control{
 	width: 100%;
 	height: 2px;
 	left: 0;
-	bottom: 0px; 
+	bottom: 0px;
 	-webkit-transition: all .25s ease;
 	-moz-transition: all .25s ease;
 	-ms-transition: all .25s ease;
@@ -2467,11 +2467,11 @@ textarea.form-control{
 	height: inherit;
 }
 .google-map-container {
-	width:100%; 
+	width:100%;
 	height:500px;
 	background: #dddddd;
 }
-/* 21 - Google Map End 
+/* 21 - Google Map End
 ------------------------------------------------------------------------*/
 
 
@@ -2500,7 +2500,7 @@ textarea.form-control{
 	-webkit-text-stroke: 0.1px;
 }
 .copyrights a:hover{
-	color: #1fb5ac; 
+	color: #1fb5ac;
 }
 
 /* 22.1 - Footer Social Buttons
@@ -2735,7 +2735,7 @@ blockquote.post-blockquote:before{
 	color: #ffffff;
 	background: transparent;
 }
-.paging-navigation a:after { 
+.paging-navigation a:after {
 	content: "";
 	position: absolute;
 	top: 10%;
@@ -2862,7 +2862,7 @@ blockquote.post-blockquote:before{
 	color: #8c8c8c;
 	padding-bottom: 15px;
 }
-.author-bio .box-title i{ 
+.author-bio .box-title i{
 	color: #b3b3b3;
 }
 .author-bio .about-author {
@@ -3053,7 +3053,7 @@ blockquote.post-blockquote:before{
 	.post-navigation .next .nav-icon{
 		left: 17px;
 	}
-} 
+}
 /* 24.3 -  Post Navigation End
 ---------------------------------------------*/
 
@@ -3125,7 +3125,7 @@ blockquote.post-blockquote:before{
 .comment-metadata a time,
 .comment-metadata time {
 	font-size: 13px;
-	color:#666666; 
+	color:#666666;
 }
 .comment-author a:hover,
 .comment-metadata a time:hover {
@@ -3184,7 +3184,7 @@ blockquote.post-blockquote:before{
 .comment-respond .btn {
 	border-width: 3px;
 }
-/* 24.4 -  Comments Area End 
+/* 24.4 -  Comments Area End
 ---------------------------------------------*/
 
 /* 24 - Single Page End
@@ -3219,11 +3219,11 @@ blockquote.post-blockquote:before{
 	margin:0;
 	padding: 0;
 }
-.widget.project-details li { 
+.widget.project-details li {
 	padding-left: 10px;
 	line-height: 25px;
 }
-.widget.project-details li:before { 
+.widget.project-details li:before {
 	font-family: FontAwesome;
 	font-size: 14px;
 	margin-right: 6px;
@@ -3281,7 +3281,7 @@ blockquote.post-blockquote:before{
 	top: 30px;
 	width: 30px;
 	height: 30px;
-	background:#000000; 
+	background:#000000;
 	border-radius: 100%;
 }
 .error-icon .icon-eye.left{
@@ -3401,7 +3401,7 @@ blockquote.post-blockquote:before{
 
 
 
-/* 28.2 - widget_img 
+/* 28.2 - widget_img
 ---------------------------------------------*/
 .widget_img a,
 .widget_img a>img,
@@ -3512,7 +3512,7 @@ blockquote.post-blockquote:before{
 	color: #1fb5ac;
 }
 .widget_categories li:after,
-.widget_archive li:after, 
+.widget_archive li:after,
 .widget_categories li:before,
 .widget_archive li:before {
 	content: "\f054";
@@ -3555,7 +3555,7 @@ blockquote.post-blockquote:before{
 /* 28.3 - Categories & Archive Widget End
 ---------------------------------------------*/
 
-/* 28.4 - Recent Post Widget 
+/* 28.4 - Recent Post Widget
 ---------------------------------------------*/
 .widget_recent_entries a {
 	-webkit-transition: all .25s ease;
@@ -3764,18 +3764,18 @@ blockquote.post-blockquote:before{
 
 /* 30 - Email Validator
 ---------------------------------------------------------------------- */
-.error { 
-	display: none; 
-	padding:10px; 
+.error {
+	display: none;
+	padding:10px;
 	margin:0 0 5px 0;
-	color: #D8000C; 
+	color: #D8000C;
 	font-size:12px;
 	background-color: #FFBABA;
 }
-.success { 
-	display: none; 
-	padding:10px; 
-	color: #044406; 
+.success {
+	display: none;
+	padding:10px;
+	color: #044406;
 	font-size:12px;
 	background-color: #B7FBB9;
 }
